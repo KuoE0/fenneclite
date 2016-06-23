@@ -14,8 +14,9 @@
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
+        android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize">
+        android:minHeight="@dimen/abc_action_bar_default_height_material">
 
         <EditText
             android:id="@+id/urlText"
